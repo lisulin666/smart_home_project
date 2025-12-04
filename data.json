@@ -1,0 +1,19 @@
+{
+    "users": {
+        "王钰": {
+            "username": "王钰",
+            "devices": [
+                "L01"
+            ]
+        }
+    },
+    "devices": {
+        "L01": {
+            "name": "light",
+            "device_id": "L01",
+            "status": "off",
+            "attributes": {},
+            "shared_users": []
+        }
+    }
+}
