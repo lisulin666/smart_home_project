@@ -1,0 +1,14 @@
+[
+    {
+        "description": "无人时自动关灯"
+    },
+    {
+        "description": "温度 < 20°C 自动关闭空调"
+    },
+    {
+        "description": "门锁未关闭报警"
+    },
+    {
+        "description": "温度 > 30°C 自动打开空调"
+    }
+]

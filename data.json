@@ -3,7 +3,21 @@
         "王钰": {
             "username": "王钰",
             "devices": [
-                "L01"
+                "L01",
+                "CU01"
+            ]
+        },
+        "李苏麟": {
+            "username": "李苏麟",
+            "devices": [
+                "ML01",
+                "D01"
+            ]
+        },
+        "何兴亮": {
+            "username": "何兴亮",
+            "devices": [
+                "C01"
             ]
         }
     },
@@ -12,8 +26,55 @@
             "name": "light",
             "device_id": "L01",
             "status": "off",
-            "attributes": {},
+            "attributes": {
+                "brightness": 81
+            },
+            "shared_users": [
+                "李苏麟"
+            ]
+        },
+        "ML01": {
+            "name": "MoodLight",
+            "device_id": "ML01",
+            "status": "on",
+            "attributes": {
+                "color": "blue",
+                "auto_change": false
+            },
             "shared_users": []
+        },
+        "D01": {
+            "name": "doorlock",
+            "device_id": "D01",
+            "status": "off",
+            "attributes": {
+                "locked": true,
+                "last_action_time": null
+            },
+            "shared_users": []
+        },
+        "C01": {
+            "name": "camera",
+            "device_id": "C01",
+            "status": "off",
+            "attributes": {
+                "angle": 0,
+                "night_vision": false
+            },
+            "shared_users": [
+                "李苏麟"
+            ]
+        },
+        "CU01": {
+            "name": "curtain",
+            "device_id": "CU01",
+            "status": "on",
+            "attributes": {
+                "openness": 53
+            },
+            "shared_users": [
+                "李苏麟"
+            ]
         }
     }
 }

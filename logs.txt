@@ -1,3 +1,26 @@
 [2025-12-05 01:24:33] 添加用户 王钰
 [2025-12-05 01:24:50] 添加设备 light, ID=L01, Owner=王钰
 [2025-12-05 01:25:04] 系统数据已保存。
+[2025-12-07 12:50:38] 打开设备 light | 设备: light(L01) | 状态: on | device_id: L01 | old_status: off
+[2025-12-07 12:50:55] 添加用户 李苏麟 | 用户: 李苏麟
+[2025-12-07 12:52:05] 设备 L01 被共享给用户 李苏麟 | 用户: 李苏麟 | 设备: light(L01) | 状态: on
+[2025-12-07 12:52:19] 系统数据已保存
+[2025-12-07 12:52:27] 关闭设备 light | 设备: light(L01) | 状态: off | device_id: L01 | old_status: on
+[2025-12-07 12:52:29] 打开设备 light | 设备: light(L01) | 状态: on | device_id: L01 | old_status: off
+[2025-12-07 12:56:37] 添加设备 moodlight | 用户: 李苏麟 | 设备: MoodLight(ML01) | 状态: off | device_id: ML01
+[2025-12-07 12:57:39] 添加设备 doorlock | 用户: 李苏麟 | 设备: doorlock(D01) | 状态: off | device_id: D01
+[2025-12-07 12:57:53] 关闭设备 light | 设备: light(L01) | 状态: off | device_id: L01 | old_status: on
+[2025-12-07 12:58:18] 系统数据已保存
+[2025-12-07 12:58:30] 打开设备 MoodLight | 设备: MoodLight(ML01) | 状态: on | device_id: ML01 | old_status: off
+[2025-12-07 12:58:39] 添加用户 何兴亮 | 用户: 何兴亮
+[2025-12-07 12:58:49] 添加设备 camera | 用户: 何兴亮 | 设备: camera(C01) | 状态: off | device_id: C01
+[2025-12-07 12:59:07] 打开设备 camera | 设备: camera(C01) | 状态: on | device_id: C01 | old_status: off
+[2025-12-07 12:59:20] 设备 C01 被共享给用户 李苏麟 | 用户: 李苏麟 | 设备: camera(C01) | 状态: on
+[2025-12-07 12:59:28] 关闭设备 camera | 设备: camera(C01) | 状态: off | device_id: C01 | old_status: on
+[2025-12-07 12:59:44] 添加设备 curtain | 用户: 王钰 | 设备: curtain(CU01) | 状态: off | device_id: CU01
+[2025-12-07 12:59:51] 打开设备 curtain | 设备: curtain(CU01) | 状态: on | device_id: CU01 | old_status: on
+[2025-12-07 12:59:55] 关闭设备 curtain | 设备: curtain(CU01) | 状态: off | device_id: CU01 | old_status: on
+[2025-12-07 12:59:55] 打开设备 curtain | 设备: curtain(CU01) | 状态: on | device_id: CU01 | old_status: off
+[2025-12-07 13:00:00] 设备 CU01 被共享给用户 李苏麟 | 用户: 李苏麟 | 设备: curtain(CU01) | 状态: on
+[2025-12-07 13:00:03] 系统数据已保存
+[2025-12-07 13:13:18] 系统数据已保存
