@@ -1,4 +1,5 @@
 import json
+from automation import AutomationManager
 from user import User
 from device import Device, MoodLight
 from logger import log
@@ -17,6 +18,8 @@ class SmartHome:
         self.users = {}      # {用户名: User对象}
         self.devices = {}    # {设备ID: Device对象}
         self.load_data()     # 启动时自动尝试加载数据
+        self.automation = AutomationManager()  # 自动化规则管理器
+
 
     # ---------------------------
     # 用户管理

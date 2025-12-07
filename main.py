@@ -16,6 +16,7 @@ while True:
     print("4. 共享设备")
     print("5. 保存数据")
     print("6. 退出系统")
+    print("7. 添加自动化规则")
     print("========================")
 
     choice = input("请输入选项编号：").strip()
@@ -56,6 +57,25 @@ while True:
     elif choice == "6":
         print("退出系统，再见！")
         break
+    elif choice == "7":
+        print("\n=== 添加自动化规则 ===")
+        from automation import AutomationRule
+        
+        def cond(state):
+            return state.get("temperature", 0) > 30
+    
+        def act(state):
+            print("自动化动作：打开空调！")
+            # 遍历所有设备，找到类型为 aircon 的设备并打开
+            for device_id, device in home.devices.items():
+                if device.name == "aircon":
+                    device.turn_on()
+                    print(f"已自动打开空调设备 {device_id}")
+                    break
+        
+        rule = AutomationRule(cond, act)
+        home.automation.add_rule(rule)
+        print("规则已添加。")
 
     else:
         print("无效选项，请重新输入。")
